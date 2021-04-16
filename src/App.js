@@ -1,25 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Test1 from "./components/table/1-componentClass";
+import Test2 from "./components/table/2-componentFunctional"
+import QuizComponent from "./components/quiz-component";
+import Question from "./components/questions";
+import Answers from "./components/answers";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return(
+        <QuizComponent/>
+
+    );
 }
 
 export default App;
